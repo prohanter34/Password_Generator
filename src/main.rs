@@ -71,7 +71,7 @@ impl eframe::App for MyApp {
                         });
                         ui.horizontal(|ui| {
                             ui.text_edit_singleline(&mut self.time_t);
-                            ui.label("T (срок действия пароляв днях)");
+                            ui.label("T (срок действия пароля в днях)");
 
                         });
                         ui.horizontal(|ui| {
